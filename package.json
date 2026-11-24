@@ -1,0 +1,32 @@
+{
+  "name": "@chipdocs/mcp-server",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) server for chipdocs.org — search 7,900+ electronic components, extract datasheet pinouts, find drop-in replacements, compare ICs pin-by-pin, and download KiCad/Fusion 360/STEP CAD libraries.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "chipdocs-mcp": "./index.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "electronics",
+    "pcb",
+    "kicad",
+    "datasheet",
+    "pinout",
+    "footprint",
+    "ipc-7351",
+    "hardware",
+    "chipdocs"
+  ],
+  "license": "MIT",
+  "homepage": "https://chipdocs.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chipdocs/chipdocs-mcp-server.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
